@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin-left: 10px;
+}
+h2{
+    margin-left: 10px;
+}
+
+h4{
+    margin-left: 10px;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 15% 85%;
+}
+
+.sidebar{
+    background-color: #5D3891;
+    color: white;
+    font-weight:bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.dash-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.dash-item-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    padding-left: 30px;
+    margin-left: 20px;
+    
+}
+.dash-item-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    padding-left: 30px;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+}
+
+.dash-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.main-content{
+    background-color: #F99417;
+    display: grid;
+    grid-template-rows: 20% 80%;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    margin-left: 50px;
+    height: 50px;
+    
+}
+
+.navbar2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    margin-left: 50px;
+    height: 50px;
+    
+}
+
+.form-input{
+   border-radius: 20px;
+   width: 900px;
+   height: 30px;
+   box-shadow: none;
+   border-color: #F99417;
+   background-color: #E8E2E2;
+   margin-left: 20px;
+   margin-right: 100px;
+}
+.content{
+    background-color: #E8E2E2;
+}
+
+#welcome{
+    margin-left: 20px;
+    color: white;
+    margin-right: 570px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+    align-items: center;
+    background-color: #5D3891;
+    border-color: #F99417;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+
+}
