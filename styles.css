@@ -71,6 +71,20 @@ h4{
     
 }
 
+.dash-git{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 150px;
+    color: white;
+}
+
+.dash-git h4{
+    color: white;
+}
+
 .main-content{
     background-color: #F99417;
     display: grid;
